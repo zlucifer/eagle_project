@@ -64,7 +64,7 @@ echo "  ===============================\n";
                         }
                     }
                 }else die("File doesn't exist!");
-            }else die("CARA PAKAI : php check.php list.txt");
+            }else die("CARA PAKAI : php eagle.php list.txt");
             function getStr($string, $start, $end){
                 $str = explode($start,$string);
                 $str = explode($end,$str[1]);
